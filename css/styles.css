@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: arial;
+    background: white;
+  }
+  
+  nav {
+    background-color: #cc00cc;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  nav::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .logo-box {
+    background-image: linear-gradient(
+        to right bottom, 
+        rgba(255, 0, 212, 0.2), 
+        rgba(182, 0, 152, 0.2)),
+    url(../img/makeup.jpg);
+    height: 100vh;
+    text-align: center; 
+    position: relative;
+    padding: 10px;
+}
+  .navigation {
+    list-style: none;
+    float: left;
+    position: absolute;
+  }
+  .navigation li {
+    display: inline-block;
+    background-color: #ff00ff;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  .navigation li:hover {
+    opacity: .85;
+    cursor: pointer;
+  }
+  .navigation li:active {
+    transform: translateY(3px);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  .navigation li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+  }
+  
+  .buttons {
+    float: right;
+  }
+  
+  .btn:link, .btn:visited {
+    padding: 7px;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: white;
+  }
+  .btn:active {
+    color: lightgray;
+  }
+  
