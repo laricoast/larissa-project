@@ -4,7 +4,7 @@
   }
   
   body {
-    font-family: arial;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     background: white;
   }
   
@@ -17,6 +17,24 @@
     content: "";
     display: table;
     clear: both;
+  }
+  .logo-titles {
+    text-align: center;
+  }
+  .title {
+    display: block;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+  }
+  .subtitle {
+      display: block;
+      color: white;
+      text-transform: uppercase;
+      font-size: 1.5rem;
+      font-weight: 400;
+      letter-spacing: 4.5px;
   }
   .logo-box {
     background-image: linear-gradient(
